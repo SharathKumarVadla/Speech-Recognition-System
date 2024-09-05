@@ -8,10 +8,10 @@ import pickle
 import numpy as np
 
 
-with open('/content/drive/MyDrive/speech_recognition/labels.pkl', 'rb') as f:
+with open('deploy/labels.pkl', 'rb') as f:
         labels = pickle.load(f)
 
-best_model = load_model('/content/drive/MyDrive/speech_recognition/custom_model.h5')
+best_model = load_model('deploy/custom_model.h5')
 
 def recognize_speech(x):
     samples, _ = librosa.load(x, sr=22050)
