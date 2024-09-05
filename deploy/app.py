@@ -1,6 +1,6 @@
 import streamlit as st
-from scipy.io import wavfile
-from IPython.display import Audio
+#from scipy.io import wavfile
+#from IPython.display import Audio
 import librosa
 from keras.preprocessing.sequence import pad_sequences
 from keras.models import load_model
