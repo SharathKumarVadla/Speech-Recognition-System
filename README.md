@@ -1,1 +1,1 @@
-# Speech Recognition System
+# Spoken Word Recognition System
