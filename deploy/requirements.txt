@@ -1,5 +1,2 @@
-streamlit
-scipy
 liborsa
-IPython
-tensorflow
+
